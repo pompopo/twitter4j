@@ -291,6 +291,9 @@ import static twitter4j.internal.json.z_T4JInternalParseUtil.*;
         return isFavorited;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override
     public long getFavoriteCount() {
         return favoriteCount;
